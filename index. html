@@ -3,67 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Notes - مفت تعلیمی نوٹس</title>
+    <title>Pakistan Education Board - تعلیمی بورڈ</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
-        body { background: #667eea; color: white; text-align: center; padding: 20px; }
-        .container { max-width: 800px; margin: 0 auto; }
-        header { background: white; color: #333; padding: 20px; border-radius: 10px; margin: 20px 0; }
-        h1 { font-size: 2rem; margin: 20px 0; }
-        .notes { background: white; color: #333; padding: 20px; border-radius: 10px; margin: 20px 0; }
-        .note-item { background: #f8f9fa; padding: 15px; margin: 10px 0; border-radius: 5px; }
-        .download-btn { background: #4a90e2; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
-        .ad-space { background: #ffeaa7; color: #333; padding: 15px; margin: 20px 0; border-radius: 10px; font-weight: bold; }
-        footer { background: #2c3e50; padding: 20px; border-radius: 10px; margin-top: 20px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI'; }
+        body { background: #f5f5f5; color: #333; }
+        .header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
+        .nav { background: #34495e; padding: 1rem; text-align: center; }
+        .nav a { color: white; text-decoration: none; margin: 0 1rem; padding: 0.5rem 1rem; }
+        .nav a:hover { background: #1abc9c; border-radius: 5px; }
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem; text-align: center; border-radius: 10px; margin-bottom: 2rem; }
+        .courses { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin: 2rem 0; }
+        .course-card { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .btn { background: #e74c3c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        .footer { background: #2c3e50; color: white; text-align: center; padding: 2rem; margin-top: 2rem; }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>📚 پاکستان ایجوکیشن بورڈ</h1>
+        <p>مفت تعلیمی مواد اور نوٹس</p>
+    </div>
+
+    <div class="nav">
+        <a href="#home">ہوم</a>
+        <a href="#courses">کورسز</a>
+        <a href="#notes">نوٹس</a>
+        <a href="#results">نتائج</a>
+        <a href="#contact">رابطہ</a>
+    </div>
+
     <div class="container">
-        <header>
-            <h1>📚 Education Notes Hub</h1>
-            <p>مفت تعلیمی نوٹس | روزانہ آمدنی</p>
-        </header>
-
-        <div class="ad-space">
-            🎯 یہاں Google Ads آئیں گی - Automatic Income
+        <div class="hero" id="home">
+            <h1>9th سے 12th کلاس تک مفت نوٹس</h1>
+            <p>آن لائن تعلیم - مفت مواد - روزانہ آمدنی</p>
+            <button class="btn">نوٹس ڈاؤن لوڈ کریں</button>
         </div>
 
-        <div class="notes">
-            <h2>مضامین کے نوٹس</h2>
-            
-            <div class="note-item">
-                <h3>📖 ریاضی کے نوٹس</h3>
-                <p>9th سے 12th کلاس تک</p>
-                <button class="download-btn">ڈاؤن لوڈ کریں</button>
+        <div class="courses" id="courses">
+            <div class="course-card">
+                <h3>📖 ریاضی</h3>
+                <p>9th, 10th, 11th, 12th کلاس</p>
+                <button class="btn">نوٹس ڈاؤن لوڈ</button>
             </div>
-            
-            <div class="note-item">
-                <h3>🔬 سائنس کے نوٹس</h3>
-                <p>فزکس، کیمسٹری، بائیولوجی</p>
-                <button class="download-btn">ڈاؤن لوڈ کریں</button>
+            <div class="course-card">
+                <h3>🔬 سائنس</h3>
+                <p>فزکس, کیمسٹری, بائیولوجی</p>
+                <button class="btn">نوٹس ڈاؤن لوڈ</button>
             </div>
-            
-            <div class="note-item">
-                <h3>💻 کمپیوٹر کے نوٹس</h3>
-                <p>Programming اور IT</p>
-                <button class="download-btn">ڈاؤن لوڈ کریں</button>
+            <div class="course-card">
+                <h3>💻 کمپیوٹر</h3>
+                <p>آئی سی ایس, کمپیوٹر سائنس</p>
+                <button class="btn">نوٹس ڈاؤن لوڈ</button>
             </div>
         </div>
+    </div>
 
-        <div class="ad-space">
-            📚 Amazon پر Educational Books - ہر sale پر کمیشن
-        </div>
-
-        <footer>
-            <p>© 2024 Education Notes Hub</p>
-            <p>📧 Contact: notes@educationhub.com</p>
-            <p>💰 Upload Notes - Earn Automatically!</p>
-        </footer>
+    <div class="footer" id="contact">
+        <p>© 2024 پاکستان ایجوکیشن بورڈ - تمام حقوق محفوظ ہیں</p>
+        <p>📞 رابطہ: 051-1234567 | 📧 info@eduboard.pk</p>
     </div>
 
     <script>
-        document.querySelectorAll('.download-btn').forEach(button => {
-            button.addEventListener('click', function() {
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', () => {
                 alert('نوٹس ڈاؤن لوڈ ہو رہے ہیں! Ads سے آمدنی ہو رہی ہے۔');
             });
         });
