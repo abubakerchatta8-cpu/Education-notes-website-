@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Notes - مفت تعلیمی نوٹس</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+        body { background: #667eea; color: white; text-align: center; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        header { background: white; color: #333; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        h1 { font-size: 2rem; margin: 20px 0; }
+        .notes { background: white; color: #333; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        .note-item { background: #f8f9fa; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .download-btn { background: #4a90e2; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        .ad-space { background: #ffeaa7; color: #333; padding: 15px; margin: 20px 0; border-radius: 10px; font-weight: bold; }
+        footer { background: #2c3e50; padding: 20px; border-radius: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Education Notes Hub</h1>
+            <p>مفت تعلیمی نوٹس | روزانہ آمدنی</p>
+        </header>
+
+        <div class="ad-space">
+            🎯 یہاں Google Ads آئیں گی - Automatic Income
+        </div>
+
+        <div class="notes">
+            <h2>مضامین کے نوٹس</h2>
+            
+            <div class="note-item">
+                <h3>📖 ریاضی کے نوٹس</h3>
+                <p>9th سے 12th کلاس تک</p>
+                <button class="download-btn">ڈاؤن لوڈ کریں</button>
+            </div>
+            
+            <div class="note-item">
+                <h3>🔬 سائنس کے نوٹس</h3>
+                <p>فزکس، کیمسٹری، بائیولوجی</p>
+                <button class="download-btn">ڈاؤن لوڈ کریں</button>
+            </div>
+            
+            <div class="note-item">
+                <h3>💻 کمپیوٹر کے نوٹس</h3>
+                <p>Programming اور IT</p>
+                <button class="download-btn">ڈاؤن لوڈ کریں</button>
+            </div>
+        </div>
+
+        <div class="ad-space">
+            📚 Amazon پر Educational Books - ہر sale پر کمیشن
+        </div>
+
+        <footer>
+            <p>© 2024 Education Notes Hub</p>
+            <p>📧 Contact: notes@educationhub.com</p>
+            <p>💰 Upload Notes - Earn Automatically!</p>
+        </footer>
+    </div>
+
+    <script>
+        document.querySelectorAll('.download-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('نوٹس ڈاؤن لوڈ ہو رہے ہیں! Ads سے آمدنی ہو رہی ہے۔');
+            });
+        });
+    </script>
+</body>
+</html>
